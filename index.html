@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Приглашение на свидание ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>❤️ Ты пойдешь со мной на свидание? ❤️</h1>
+        
+        <div class="form-group">
+            <label>🗓️ Выбери дату и время:</label>
+            <select id="datetime">
+                <option value="Суббота, 15 июня, 18:00">Суббота, 15 июня, 18:00</option>
+                <option value="Воскресенье, 16 июня, 17:00">Воскресенье, 16 июня, 17:00</option>
+                <option value="Пятница, 21 июня, 19:00">Пятница, 21 июня, 19:00</option>
+                <option value="Другое время (напишу в Telegram)">Другое время (договоримся)</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>📍 Где встретимся?</label>
+            <select id="place">
+                <option value="Кафе «Уютное» (центр)">Кафе «Уютное» (центр)</option>
+                <option value="Парк Горького (у фонтана)">Парк Горького (у фонтана)</option>
+                <option value="Кинотеатр «Космос»">Кинотеатр «Космос»</option>
+                <option value="Другое место (предложу)">Другое место (предложу)</option>
+            </select>
+        </div>
+
+        <button id="sendButton">💖 Да, я согласен(на)! 💖</button>
+        
+        <div id="message"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
