@@ -1,6 +1,6 @@
 // 🔴 ВАЖНО: ЗАМЕНИТЕ ЭТИ ДВЕ СТРОЧКИ НА СВОИ ДАННЫЕ!
 const BOT_TOKEN = '8980298699:AAEvNCilIVIhwSzLyUlEKbaY0iESiNz4sw4';  // Например: '1234567890:ABCdefGHIjklmNOPqrstUVWXYZ'
-const CHAT_ID = '903693845';  // Например: '987654321'
+const CHAT_ID = '1467807487';  // Например: '987654321'
 
 document.getElementById('sendButton').addEventListener('click', async function() {
     const datetime = document.getElementById('datetime').value;
